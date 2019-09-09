@@ -1,0 +1,94 @@
+/* pages/index/index.wxss */
+.top-box {
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(21, 176, 255)
+}
+.top-box image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 20rpx;
+}
+.login-box {
+  width: 100%;
+  height: 130rpx;
+  background-color: rgb(21, 176, 255);
+  color: white;
+  display: flex;
+  padding-left: 40rpx;
+}
+.login-box image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.login-box text {
+  line-height: 70rpx;
+  margin: 20rpx;
+  font-weight: 30rpx;
+}
+.backcolor {
+  background-color: rgb(21, 176, 255);
+  height: 150rpx;
+  width: 100%;
+  position: absolute;
+  top: 170rpx;
+}
+.bar {
+  position: relative;
+  background-color: white;
+  height: 120rpx;
+  margin: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25rpx;
+  color: rgb(102, 102, 102);
+  border-radius: 8rpx;
+  box-shadow: 0 0 5rpx rgba(0, 0, 0, .2);
+}
+.bar view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bar image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 15rpx;
+}
+.bar text {
+  font-size: 40rpx;
+}
+.service-box {
+  background-color: white;
+  margin: 20rpx;
+  height: 390rpx;
+  border-radius: 8rpx;
+  box-shadow: 0 0 5rpx rgba(0, 0, 0, .2);
+}
+.service-box text {
+  font-size: 30rpx;
+  color: rgb(102, 102, 102);
+  margin: 25rpx 30rpx;
+  display: inline-block;
+  width: 100%;
+}
+.service-content {
+  color: rgb(102, 102, 102);
+  display: flex;
+  flex-flow: wrap
+}
+.service-content view {
+  margin: 15rpx 37rpx;
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-content image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 15rpx;
+}

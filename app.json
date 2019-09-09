@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/home/home"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "window": {},
+  "tabBar": {
+    "color": " #666666",
+    "selectedColor": "#15B0FF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "img/f1.png",
+        "selectedIconPath": "img/f1c.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "地图",
+        "iconPath": "img/f2.png",
+        "selectedIconPath": "img/f2c.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/f3.png",
+        "selectedIconPath": "img/f3c.png"
+      }
+    ]
+  }
+}

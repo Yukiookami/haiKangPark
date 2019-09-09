@@ -1,0 +1,76 @@
+<!--pages/index/index.wxml-->
+<view>
+  <view class="top-box">
+    <image src="/img/message.png"></image>
+  </view>
+  <view class="login-box">
+    <image src="/img/login.png"></image>
+    <text>注册/登录</text>
+  </view>
+  <view class="backcolor"></view>
+  <view class="bar">
+    <view>
+      <text>0</text>
+      车辆 
+    </view>
+    <view>
+      <text>0</text>
+      收藏 
+    </view>
+    <view>
+      <text>0</text>
+      优惠券 
+    </view>
+    <view>
+      <text>0</text>
+      车位锁
+    </view>
+  </view>
+  <view class="bar">
+    <view>
+      <image src="/img/b1.png"></image>
+      停车缴费
+    </view>
+    <view>
+      <image src="/img/b2.png"></image>
+      停车记录
+    </view>
+    <view>
+      <image src="/img/b3.png"></image>
+      预订订单
+    </view>
+    <view>
+      <image src="/img/b4.png"></image>
+      包月管理
+    </view>
+  </view>
+  <view class="service-box">
+    <text>我的服务</text>
+    <view class="service-content">
+        <view>
+          <image src="/img/s1.png"></image>
+          开通无感
+        </view>
+        <view>
+          <image src="/img/s2.png"></image>
+          控制车位锁
+        </view>
+        <view>
+          <image src="/img/s3.png"></image>
+          发票管理
+        </view>
+        <view>
+          <image src="/img/s4.png"></image>
+          客服帮助
+        </view>
+        <view>
+          <image src="/img/s5.png"></image>
+          推荐给好友
+        </view>
+        <view>
+          <image src="/img/s6.png"></image>
+          系统设置
+        </view>
+    </view>
+  </view>
+</view>
