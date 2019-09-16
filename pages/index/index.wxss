@@ -1,0 +1,167 @@
+/* pages/index/index.wxss */
+.shadow-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  z-index: 10000;
+  background-color: white;
+  width: 470rpx;
+  height: 470rpx;
+  color: rgb(102, 102, 102);
+  border-radius:15rpx;
+  box-shadow: 0 0 5rpx rgba(0, 0, 0, 0.2);
+  padding-bottom: 40rpx;
+}
+.login-box text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 50rpx;
+  margin: 130rpx 0;
+}
+.login-box button {
+  width: 70%;
+  background-color: rgb(0, 178, 106);
+  color: white;
+}
+map {
+  width: 100%;
+  height: 100vh;
+}
+.function-box {
+  width: 100%;
+  position: absolute;
+  bottom: 75rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.function-box cover-image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.function-box view {
+  width: 37%;
+}
+.function-box button {
+  background-color: rgb(3, 32, 76);
+  color: white;
+  font-size: 35rpx;
+  font-weight: 30rpx;
+  border-radius: 30rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
+}
+.top-box {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(180deg, white, white, rgba(242, 242, 242, 0.3));
+  border-bottom-left-radius: 25rpx; 
+  border-bottom-right-radius: 25rpx;
+}
+.toPC {
+  margin: 35rpx;
+  width: 40rpx;
+  height: 45rpx;
+}
+.toPC cover-image {
+  width: 40rpx;
+  height: 45rpx;
+}
+.appointment-box {
+  width: 215rpx;
+  height: 55rpx;
+  position: absolute;
+  top: 90rpx;
+  left: 265rpx;
+  display: flex;
+  background-color: white;
+  border-radius: 25rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
+  font-size: 28rpx;
+  align-items: center;
+  padding: 0rpx 5rpx;
+}
+.appointment-box .btn {
+  width: 100%;
+  background: white;
+  padding: 10rpx 25rpx;
+  color: rgb(3, 32, 76);
+  border-radius: 25rpx;
+}
+.appointment-box .btn.active {
+  background: rgb(3, 32, 76);
+  color: white;
+  border-radius: 25rpx;
+}
+.search {
+  width: 70%;
+  height: 70rpx;
+  background-color: white;
+  position: absolute;
+  top: 160rpx;
+  left: 110rpx;
+  border-radius: 25rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
+  display: flex;
+  text-align: center;
+}
+.search input {
+  width: 100%;
+  margin-top: 12rpx;
+}
+.search cover-image {
+  width: 45rpx;
+  height: 40rpx;
+  margin: 15rpx 0rpx 15rpx 25rpx;
+}
+.parking-box {
+  position: absolute;
+  bottom:-550rpx;
+  width: 100%;
+}
+.parking-item {
+  position: relative;
+  overflow: hidden;
+  margin: 30rpx;
+  padding: 20rpx;
+}
+.parking-detail-box {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  z-index: 9998
+}
+.parking-detail {
+  background-color: white;
+  height: 130rpx;
+  width: 100%;
+  margin: 15rpx;
+  border-radius: 25rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
+}
+.parking-detail text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.translateBack {
+  width: 100%;
+  height: 450rpx;
+  position: absolute;
+  bottom: 1100rpx;
+}

@@ -1,0 +1,35 @@
+<!--pages/personalCenter/personalCenter.wxml-->
+<view>
+  <view class="top-box">
+    <image src="/img/back.png" bindtap="back"></image>
+    <text>个人中心</text>
+  </view>
+  <view class="login-box">
+    <image src="/img/avatar.png"></image>
+    <text>12345678910</text>
+    <image src="/img/next.png"></image>
+  </view>
+  <view class="function-box">
+    <view class="item-box">
+      <view>
+        <image src="/img/wallet.png"></image>
+        <text>钱包</text>
+      </view>
+      <image src="/img/next.png"></image>
+    </view>
+    <view class="item-box">
+      <view>
+        <image src="/img/order.png"></image>
+        <text>订单</text>
+      </view>
+      <image src="/img/next.png"></image>
+    </view>
+    <view class="item-box">
+      <view>
+        <image src="/img/news.png"></image>
+        <text>消息</text>
+      </view>
+      <image src="/img/next.png"></image>
+    </view>
+  </view>
+</view>

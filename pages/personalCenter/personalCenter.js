@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/personalCenter/personalCenter.js
 Page({
 
   /**
@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  //返回主页
+  back () {
+    wx.redirectTo({
+      url: '../index/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

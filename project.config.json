@@ -23,7 +23,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.8.2",
 	"appid": "wxe646dc44d1a4dc5a",
-	"projectname": "HaiKangPark",
+	"projectname": "wisdomParking",
 	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -45,10 +45,6 @@
 			"list": []
 		},
 		"game": {
-			"list": []
-		},
-		"gamePlugin": {
-			"current": -1,
 			"list": []
 		},
 		"miniprogram": {

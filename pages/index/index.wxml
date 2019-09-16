@@ -1,0 +1,52 @@
+<!--pages/index/index.wxml-->
+<view>
+  <view class="shadow-box" wx:if="{{show}}">
+    <view class="login-box">
+      <text>XXXXX</text>
+      <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+    </view>
+  </view>
+
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" bindmarkertap="markertap" show-location="true">
+    <view class="top-box">
+      <view class="toPC">
+        <cover-image src="/img/login.png" bindtap='toPC'></cover-image>
+      </view>
+    </view>
+    <view class="appointment-box">
+      <view class="btn {{selectType == 'now' ? 'active' : ''}}" bindtap='selectNow' data-id='now'>现在</view>
+      <view class="btn {{selectType == 'app' ? 'active' : ''}}" bindtap='selectApp' data-id='app'>预约</view>
+    </view>
+    <view class="search">
+      <cover-image src="/img/search.png"  bindtap="translateBack"></cover-image>
+      <input placeholder="请输入你想要停车的地方"></input>
+    </view>
+    <view class="function-box" wx:if="{{parkingShow}}">
+      <cover-image src="/img/location.png" bindtap='location'></cover-image>
+      <view>
+        <button bindtap="translate">停 车</button>
+      </view>
+      <cover-image src="/img/refresh.png" bindtap='refresh'></cover-image>
+    </view>
+    
+    <view class="parking-box">
+      <cover-view class="translateBack" bindtap="translateBack" wx:if="{{backBox}}"></cover-view>
+      <view class="parking-item" animation="{{animation}}" >
+        <view class="parking-detail-box">
+          <view class="parking-detail">
+            <text>xxxxx路停车场</text>
+          </view>
+          <view class="parking-detail">
+            <text>xxxxx路停车场</text>
+          </view>
+          <view class="parking-detail">
+            <text>xxxxx路停车场</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </map>
+
+  
+</view>

@@ -1,0 +1,81 @@
+/* pages/personalCenter/personalCenter.wxss */
+.top-box {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(180deg, white, white, rgba(242, 242, 242, 0.3));
+}
+.top-box image {
+  width: 19rpx;
+  height: 21rpx;
+  margin: 20rpx 30rpx;
+}
+.top-box text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.login-box {
+  width: 100%;
+  height: 130rpx;
+  color: black;
+  display: flex;
+  padding-left: 40rpx;
+  padding-top: 40rpx;
+}
+.login-box image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.login-box image:last-child {
+  width: 17rpx;
+  height: 19rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 160rpx;
+  margin: 10rpx;
+}
+.login-box text {
+  line-height: 80rpx;
+  margin: 25rpx;
+  font-size: 30rpx;
+  font-weight: 30rpx;
+  
+}
+.function-box {
+  background-color: white;
+  height: 905rpx;
+  margin: 25rpx;
+  font-size: 25rpx;
+  color: rgb(102, 102, 102);
+  border-radius: 20rpx;
+  padding: 3rpx 30rpx;
+}
+.item-box {
+  width: 100%;
+  height: 70rpx;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 20rpx 20rpx 0 20rpx;
+  justify-content: space-between;
+}
+.item-box view {
+  display: flex;
+}
+.item-box image {
+  width: 35rpx;
+  height: 35rpx;
+}
+.item-box image:last-child {
+  width: 17rpx;
+  height: 19rpx;
+  margin: 20rpx;
+}
+.item-box text {
+  font-size: 27rpx;
+  font-weight: 30rpx;
+  margin: 0 20rpx;
+}
